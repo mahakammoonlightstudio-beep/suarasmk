@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Kamu Sedang Offline — Suara SMKN 1 Tenggarong</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            min-height: 100vh; display: flex; align-items: center; justify-content: center;
+            background: linear-gradient(160deg, #1a56db, #0f3a9e);
+            color: #fff; padding: 2rem; text-align: center;
+        }
+        .card { max-width: 400px; }
+        .emoji { font-size: 4.5rem; margin-bottom: 1rem; display: block; }
+        h1 { font-size: 1.5rem; margin-bottom: .6rem; }
+        p  { color: rgba(255,255,255,.75); font-size: .95rem; line-height: 1.6; margin-bottom: 1.6rem; }
+        button {
+            background: #fff; color: #1a56db; border: none; border-radius: 12px;
+            padding: .8rem 2rem; font-size: 1rem; font-weight: 700; cursor: pointer;
+            min-height: 44px; touch-action: manipulation; transition: transform .15s;
+        }
+        button:active { transform: scale(.96); }
+        small { display: block; margin-top: 1.4rem; color: rgba(255,255,255,.5); font-size: .75rem; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <span class="emoji">📡</span>
+        <h1>Kamu Sedang Offline</h1>
+        <p>Koneksi internet terputus. Cek WiFi atau kuota kamu, lalu coba lagi.<br>Penilaian tetap aman — tidak ada data yang hilang.</p>
+        <button onclick="location.reload()">🔄 Coba Lagi</button>
+        <small>Suara SMKN 1 Tenggarong</small>
+    </div>
+</body>
+</html>

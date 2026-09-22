@@ -1,0 +1,11 @@
+# Kredensial rahasia — JANGAN pernah di-commit
+config.local.php
+
+# Dump database live (berisi IP & data pengunjung asli)
+if0_*.sql
+*.dump.sql
+
+# File sistem / log
+*.log
+.DS_Store
+Thumbs.db

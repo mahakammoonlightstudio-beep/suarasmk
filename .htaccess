@@ -1,0 +1,41 @@
+# ================================================
+#  Suara SMKN 1 Tenggarong — Apache config
+# ================================================
+
+# Charset default
+AddDefaultCharset UTF-8
+
+# Jangan tampilkan daftar file di folder tanpa index
+Options -Indexes
+
+# Halaman utama
+DirectoryIndex index.php
+
+# ---- Blokir akses langsung ke file sensitif ----
+<FilesMatch "^(config\.php|config\.local\.php|database\.sql)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# ---- Blokir file backup/sekunder ----
+<FilesMatch "\.(bak|old|orig|save|swp|ini|log|md)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# ---- Header keamanan dasar ----
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>

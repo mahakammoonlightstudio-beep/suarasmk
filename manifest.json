@@ -1,0 +1,41 @@
+{
+    "name": "Suara SMKN 1 Tenggarong",
+    "short_name": "Suara SMK",
+    "description": "Beri penilaian anonim untuk OSIS, MPK, dan ekstrakurikuler di SMKN 1 Tenggarong.",
+    "id": "/",
+    "start_url": "index.php",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#f0f4ff",
+    "theme_color": "#1a56db",
+    "lang": "id",
+    "dir": "ltr",
+    "categories": ["education", "social"],
+    "icons": [
+        {
+            "src": "assets/img/icon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        },
+        {
+            "src": "assets/img/icon-maskable.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Papan Peringkat",
+            "short_name": "Peringkat",
+            "url": "index.php#leaderboard"
+        },
+        {
+            "name": "Admin Panel",
+            "short_name": "Admin",
+            "url": "admin.php"
+        }
+    ]
+}
