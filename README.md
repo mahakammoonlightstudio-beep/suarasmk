@@ -4,7 +4,7 @@ Aplikasi web penilaian organisasi siswa untuk SMKN 1 Tenggarong. Siswa dapat mem
 
 **Live demo: <https://suara-smkn1tgr.infinityfreeapp.com/>**
 
-![PHP](https://img.shields.io/badge/PHP-7.2%2B-777bb3) ![MySQL](https://img.shields.io/badge/DB-MySQL%20%2F%20MariaDB-4479a1) ![PWA](https://img.shields.io/badge/PWA-ready-5a0fc8)
+![License](https://img.shields.io/badge/License-CC%20BY%204.0-blue) ![PHP](https://img.shields.io/badge/PHP-7.2%2B-777bb3) ![MySQL](https://img.shields.io/badge/DB-MySQL%20%2F%20MariaDB-4479a1) ![PWA](https://img.shields.io/badge/PWA-ready-5a0fc8)
 
 ## Fitur
 
