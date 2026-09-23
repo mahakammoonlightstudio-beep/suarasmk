@@ -82,4 +82,4 @@ suarasmk/
 
 ## Lisensi
 
-Hak cipta 2026 Mahakam Moonlight Studio. Dibuat untuk SMKN 1 Tenggarong.
+Didistribusikan di bawah [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE). Bebas digunakan dan dimodifikasi selama mencantumkan kredit kepada Mahakam Moonlight Studio.
