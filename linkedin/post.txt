@@ -1,0 +1,15 @@
+Suara SMK: platform penilaian dan masukan anonim untuk SMKN 1 Tenggarong.
+
+Satu prinsip yang saya pegang sejak desain database: satu orang, satu suara.
+
+- Anti-duplikat ditegakkan di level database dengan unique key - bukan sekadar validasi di sisi klien
+- Identitas tidak pernah dikaitkan dengan isi penilaian, jadi jujur itu aman
+- Panel admin untuk rekap dan tindak lanjut masukan
+- Ringan dijalankan di shared hosting mana pun
+
+Proyek-proyek seperti ini yang mengingatkan saya bahwa sistem paling sederhana pun harus dirancang dengan serius.
+
+Coba lihat: https://suara-smkn1tgr.infinityfreeapp.com/
+Kode: https://github.com/mahakammoonlightstudio-beep/suarasmk
+
+#PHP #MySQL #WebDevelopment #Anonymity #SchoolTech
